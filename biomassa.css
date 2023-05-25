@@ -32,11 +32,9 @@ body{
 }
 
 .nome {
-    margin-top: 55px;
+    margin-top: 40px;
     font-family: 'Playfair Display', serif;
-    font-size: 27px;
-    font-weight: bold;
-    color: #abb1bc;
+    font-size: 30px;
 }
 
 .botao_paginas{
