@@ -30,7 +30,7 @@ body{
 }
 
 .nome {
-    margin-top: 40px;
+    margin-top: 55px;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     font-weight: bold;
@@ -64,7 +64,7 @@ body{
 }
 
 .definicao{
-    height: 40vh;
+    height: 20vh;
     min-height: 100px;
     background-position: center;
     background-size: cover;
