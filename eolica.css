@@ -1,0 +1,173 @@
+body {
+    background-image: url("./assets/images/parque.jpg");
+    background-position: center;
+    background-size: 328vw;
+    background-repeat: no-repeat;
+    font-family: Arial, Verdana;
+    margin: 0;
+
+}
+
+h2 {
+    color: white;
+    text-shadow: 3px 3px 6px skyblue;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 27px;
+}
+
+h3 {
+    
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 23px;
+}
+
+p {
+    text-indent: 35px;
+    padding-left: -5px;
+    font-size: 21px;
+}
+
+p1 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.links {
+    color: #ff0000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem1 {
+    width: 550px;
+
+    margin-left: 20px;
+
+}
+
+.imagem2 {
+    width: 550px;
+    margin-right: 20px;
+}
+
+.quando {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.custo {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.funciona {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pais {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.positivos {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.negativos {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.materia {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.tecnologias {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ilustracoes {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.comentario {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.imagensM {
+    text-align: center;
+
+}
+
+.cabecalho {
+    background-color:none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+}
+
+.inicio {
+    display: flex;
+
+}
+
+.botao_inicio {
+    background-color:transparent;
+    margin: 0;
+    border: none;
+}
+
+.icone {
+    height: 110px;
+    width: 110px;
+}
+
+.nome {
+    margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.botao_paginas{
+    text-decoration: none;
+    border-top-right-radius:  40px;
+    border-color: #f6ba4a;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: #512602;
+
+}
+
+.paginas1 {
+    width: 65px;
+    height: 65px;
+    text-decoration: none;
+    
+}
+
+.botao_paginas1{
+    text-decoration: none;
+    border-top-right-radius:  40px;
+    border-color: #f6ba4a;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: #512602;
+    margin-right: 20px;
+
+}

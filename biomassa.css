@@ -1,0 +1,227 @@
+body{
+    background-image: url("./assets/images/fundo.jpeg");
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.inicio {
+    display: flex;
+}
+
+.botao_inicio {
+    background-color:  #0b162900;
+    margin: 0;
+    border: none;
+}
+
+.icone {
+    height: 110px;
+    width: 110px;
+}
+
+.nome {
+    margin-top: 55px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #abb1bc;
+}
+
+.botao_paginas{
+    text-decoration: none;
+    border-top-right-radius:  40px;
+    border-color: #0056f7;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color:#0b162900;
+}
+
+.paginas1 {
+    width: 65px;
+    height: 65px;
+    text-decoration: none;
+    
+}
+
+.botao_solar{
+    text-decoration: none;
+    border-top-right-radius:  40px;
+    border-color: #0056f7;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color:#0b162900;
+    margin-right: 20px;
+}
+
+.definicao{
+    height: 20vh;
+    min-height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #404f6c;
+    
+}
+
+.quando{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    text-shadow: 3px 3px 6px #fff;
+}
+
+.funcionamento{
+    height: 100vh;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    text-shadow: 3px 3px 6px #fff;
+    color:#474242;
+}
+
+.materiaprima{
+        height: 100vh;
+        min-height: 500px;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        border: 2px #fff solid;
+        border-radius: 10px;
+}
+
+h2{
+    text-align: justify;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 27px;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-shadow: 3px 3px 6px #fff;
+    color:#001308;
+}
+
+h3{
+    text-shadow:2px 2px 4px #f00;
+}
+
+p{
+    text-indent: 35px;
+    margin-left: 8px;
+    font-size: 21px;
+    margin-bottom: 2em;
+    color: #000;
+}
+
+p.escuro{
+    text-indent: 35px;
+    margin-left: 8px;
+    font-size: 21px;
+    margin-bottom: 2em;
+    color: #fff;
+    text-shadow: 5px 5px 10px #000;
+}
+
+p.claro{
+    color:#fff;
+    text-shadow: 3px 3px 6px #000;
+}
+
+.principal{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ol{
+    padding: 2em;
+}
+
+li{
+    padding-bottom: 1em;
+    font-weight: 600;
+    
+    font-size: 17px;
+    text-shadow: 3px 3px 6px #fff;
+    font-size: larger;
+}
+
+span{
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+    text-shadow: 4px 4px 8px #f00;
+}
+
+.imgA{
+    width: 100%;
+    height: 55vh;
+    background-position: center;
+    text-align: center;
+}
+
+.imgB{
+        width: 100%;
+        height: 60vh;
+        background-position: center;
+        text-align: center;
+}
+
+img{
+    width: 40vw;
+    height: 55vh;
+    background-position: center;
+}
+
+tbody{
+    text-align: center;
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+}
+
+.comentario{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #f00;
+    font-style: italic;
+    color: #fff;
+}
+
+section:nth-of-type(2){
+    background-image: url("./assets/images/principal1.jpeg");
+}
+
+section:nth-of-type(5){
+    background-image: url("./assets/images/principal3.png");
+}
+
+section:nth-of-type(9){
+    background-image: url("./assets/images/principal2.jpeg");
+}
+
+
+.frase-imagem{
+    color: #000000;
+}

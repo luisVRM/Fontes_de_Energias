@@ -1,0 +1,227 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-image: linear-gradient(to bottom,#0103aa  ,#000000c5 40%);
+}
+
+.cabecalho {
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.inicio {
+    display: flex;
+}
+
+.botao_inicio {
+    background-color: transparent ;
+    margin: 0;
+    border: none;
+}
+
+.icone {
+    height: 110px;
+    width: 110px;
+}
+
+.nome {
+    margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.botao_paginas{
+    text-decoration: none;
+    border-top-right-radius:  40px;
+    border-color: #cfcfcf;  
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color:#00072c;
+}
+
+.paginas1 {
+    width: 65px;
+    height: 65px;
+    text-decoration: none;
+    
+}
+
+.botao_solar{
+    text-decoration: none;
+    border-top-right-radius:  40px;
+    border-color: #cfcfcf;  
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color:#00072c;
+    margin-right: 20px;
+}
+
+.definicao{
+    height: 50vh;
+    min-height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    color: #fffdfd;
+    text-shadow: 5px 2px 3px #000;
+    
+}
+
+p.escuro{
+    color: #ffffff;
+}
+
+
+.quando{
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 4px 4px 7px #000000;
+}
+ 
+
+
+
+.funcionamento{
+    text-align: center;
+    height: 100vh;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    text-shadow: 4px 4px 7px #faf7f7;
+    }
+
+.funcionamento>p{
+    color: #f6f1f1;     
+    font-size: 25px;
+    text-shadow: 4px 4px 10px #cbb6b6;
+}
+.fonte{
+    color: #f6f1f1;
+}
+
+.custo{
+    color:#f6f1f1
+}
+
+.extração{
+    color:#f6f1f1
+}
+.produtores{
+    color: #f6f1f1;
+    height: 90vh;
+}
+h2{
+    text-align: justify;
+    
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 27px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+p{
+    text-indent: 35px;
+    margin-left: 8px;
+    font-size: 21px;
+    margin-bottom: 2em;
+}
+
+.principal{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ol{
+    padding: 2em;
+}
+
+li{
+
+    padding-bottom: 3em;
+    font-weight: 600;
+    color: #f8f8f8;
+    font-size: 17px;
+    text-shadow: 2px 2px 4px #ffffff4d;
+}
+
+span{
+    font-weight: bold;
+    color: #008cff;
+    font-size: 18px;
+}
+
+.italic{
+font-style: italic;
+}
+
+.imgA{
+    width: 100%;
+    height: 45vh;
+    background-position: center;
+    text-align: center;
+}
+
+img{
+   width: 40vw;
+    height: 45vh;
+    background-position: center;
+}
+
+.comentario{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #ff0;
+    font-style: italic;
+    color: #f6f6f6;
+}
+
+strong{
+ font: 22px arial;
+ font-weight: bold;
+ text-shadow: 2px 2px 4px #f8f4f4;
+}
+
+a{
+    font: 16px 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-decoration: dashed;
+}
+
+a:hover{
+    color: #0694db;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+section:nth-of-type(2){
+    background-image: url("./assets/images/petroleo_727266628.PNG");
+}
+
+section:nth-of-type(4){
+    background-image: url("./assets/images/O-que-e-a-industria-do-petroleo-e-quais-sao-seus-principais-componentes.jpg");
+    background-attachment: scroll;
+}
+

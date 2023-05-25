@@ -1,0 +1,269 @@
+body {
+    background-image: url("./assets/images/principal.jpg");
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+    background-size: cover;
+}
+
+.cabecalho {
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.inicio {
+    display: flex;
+}
+
+.botao_inicio {
+    background-color:  #0b162900;
+    margin: 0;
+    border: none;
+}
+
+.icone {
+    height: 110px;
+    width: 110px;
+}
+
+.nome {
+    margin-top: 55px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 1px 3px #000;
+}
+
+.botao_paginas {
+    text-decoration: none;
+    border-top-right-radius: 40px;
+    border-color: #0056f7;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color:#0b162900;
+}
+
+.paginas1 {
+    width: 65px;
+    height: 65px;
+    text-decoration: none;
+    
+}
+
+.botao_paginas1 {
+    text-decoration: none;
+    border-top-right-radius:  40px;
+    border-color: #0056f7;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color:#0b162900;
+    margin-right: 20px;
+}
+
+.definicao {
+    height: 20vh;
+    min-height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+    margin-top: 200px;
+    margin-bottom: 1em;
+}
+
+p.escuro {
+    color: #fff;
+}
+
+.quando {
+    height: 65vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px #fff solid;
+    border-radius: 10px;
+}
+
+.textquando {
+    color: #ffffff;
+}
+
+.funcionamento {
+    height: 100vh;
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px #fff solid;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: justify;
+    text-shadow: 4px 1px 4px #fff;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 27px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+p {
+    text-indent: 35px;
+    margin-left: 8px;
+    font-size: 21px;
+    margin-bottom: 2em;
+}
+
+.principal {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-size: contain;
+}
+
+ol {
+    padding: 2em;
+}
+
+li {
+    padding-bottom: 1em;
+    font-weight: 600;
+    color: #000;
+    font-size: 17px;
+    text-shadow: 4px 2px 4px #fff;
+}
+
+span {
+    font-weight: bold;
+    color: #008cff;
+    font-size: 18px;
+}
+
+.italic {
+font-style: italic;
+}
+
+.imgA {
+    width: 100%;
+    height: 45vh;
+    background-position: center;
+    text-align: center;
+}
+
+img {
+   width: 40vw;
+    height: 45vh;
+    background-position: center;
+}
+
+.comentario {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #0694db;
+    font-style: italic;
+    color: #000000;
+}
+
+.tabelaresponsiva {
+    margin: -16px -16px 0px;
+    padding: 16px;
+    width: 100%;
+}
+
+table {
+    margin-bottom: 0;
+    table-layout: auto;
+    padding: 8px;
+}
+
+caption {
+    padding: 4px 0px 0px;
+}
+
+strong {
+ font: 22px arial;
+ font-weight: bold;
+ text-shadow: 3px 1px 3px #fff;
+}
+
+th {
+    background-color: #6495ED;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+td {
+    padding: 8px;
+}
+
+a {
+    font: 16px 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-decoration: dashed;
+}
+
+a:hover {
+    color: #0694db;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+.org {
+    font-weight: bold;
+    color: #008cff;
+    font-size: 18px;
+}
+
+.org:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+link1{ 
+    font-weight: bold;
+    color: #008cff;
+    font-size: 18px;
+}
+
+.link1:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+
+tbody {
+    text-align: center;
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 16%;
+}
+
+tr:nth-child(ODD) {
+    background-color: #6495ED;
+}
+
+section:nth-of-type(2) {
+    background-image: url("./assets/images/quando.jpg");
+}
+
+section:nth-of-type(4) {
+    background-image: url("./assets/images/backg.jpg");
+}
