@@ -2,7 +2,6 @@ body{
     background-image: linear-gradient(to bottom,#5ff0fa 1%,#0b124bc5);
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0;
     background-origin: border-box;
 }
 
@@ -10,8 +9,8 @@ body{
     background-color: none;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
 
 .inicio {
@@ -39,7 +38,7 @@ body{
 
 .botao_paginas{
     text-decoration: none;
-    border-top-right-radius:  40px;
+    border-top-right-radius: 30px;
     border-color: #0056f7;
     margin-top: 30px;
     margin-left: 15px;
