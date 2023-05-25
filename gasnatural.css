@@ -24,8 +24,8 @@ body{
 }
 
 .icone {
-    height: 110px;
-    width: 110px;
+    height: 90px;
+    width: 90px;
 }
 
 .nome {
@@ -40,8 +40,8 @@ body{
     text-decoration: none;
     border-top-right-radius: 30px;
     border-color: #0056f7;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 15px;
     background-color:#0b162900;
 }
